@@ -1,0 +1,2 @@
+INSERT INTO pesanan (jam_pesan,tanggal_pesan,status,uuid,id_user,id_jadwal)
+VALUES (CURRENT_TIME(),CURDATE(),1,uuid(),1,2);

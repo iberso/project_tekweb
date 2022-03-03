@@ -1,0 +1,181 @@
+.nav-col {
+    background-color: #16697a;
+}
+
+.tengah {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-primary {
+    background-color: #000000;
+}
+
+.color-back{
+    background-color: #1d1d1d !important;
+}
+
+.color-unpick{
+    background-color: #343a40
+}
+
+.card-our-setting{
+    background-color: transparent;
+}
+
+.card-color-setting{
+  background-color: #303030;
+}
+.color-obj{
+    background-color:#d6a152;
+}
+.our-font{
+  color:#d5a968;
+}
+.color-font{
+    color:#f3a939;
+}
+.lin {
+  color: inherit;
+}
+
+.font-style{
+    font-family: "Lato Black";
+}
+
+.color-black{
+    background-color: #111111;
+}
+
+table, .tabel-kursi, tr, td{
+    padding:3;
+}
+
+.kursi-border-top{
+    border-top: 10px solid #fdcf00;
+    
+}
+.our-border{
+  border-radius: 9px;
+}
+.color-back-tbl{
+    background-color: #222931;
+}
+
+.our-kursi{
+        border-top: 3px solid #cacaca;
+        width: 100%;
+        font-weight: 600;
+}
+
+.our-card-show-pesanan{
+  border-left: 3px solid #d6a152;
+}
+
+.our-color-kursi{
+  background-color:#d6a152;
+}
+
+.our-card-show-fil{
+    background-color:#d6a152;
+    border-radius: 20px;
+}
+
+.footer{
+  bottom: 0;
+  width: 100%;
+}
+
+.hoper-animation {
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+}
+
+.hoper-animation:hover {
+    transform: scale(1.05);
+}
+
+.our-alert-proses{
+  background-color: transparent;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #e4c125;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.our-icon-size{
+font-size:25pt;
+}
+
+
+.our-table-hover tbody tr:hover {
+  color: #212529;
+  background-color: #ffffff
+}
+
+.hide-div{
+  display: none;
+}
+
+.tbl-mid > td{
+  text-align: center;
+}
+#hsl_search{
+  list-style: none;
+  width:255px;
+  position: absolute;
+  z-index: 1000;
+}
+
+#hsl_search li{
+  background: rgb(98, 98, 99);
+  padding: 4px; 
+  border-bottom: 1px solid rgb(65, 65, 65);
+  margin-bottom: 1px;
+  border-radius: 4px;
+ }
+ 
+ #hsl_search li:hover{
+  cursor: pointer;
+ }
+
